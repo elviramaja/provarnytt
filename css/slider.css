@@ -1,0 +1,72 @@
+.div-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    position: relative;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+.slider-button {
+border: none;
+display: inline-block;
+padding: 8px 8px;
+vertical-align: middle;
+overflow: hidden;
+text-decoration: none;
+color: white;
+background-color: transparent;
+text-align: center;
+cursor: pointer;
+white-space: nowrap;
+position: absolute;
+top: 50%;
+transform: translate(0%, -50%);
+-ms-transform: translate(0%, -50%)
+}
+
+.slider-button:hover {
+    color: rgb(176, 255, 169);
+}
+
+.display-left {
+    left: 0%;
+}
+
+.display-right {
+    right: 0%;
+}
